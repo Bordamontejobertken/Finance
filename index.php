@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/edd0240440.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="finance.js"></script>
     <title>Finance Dashboard</title>
@@ -15,10 +14,11 @@
     <h2>Financial Dashboard</h2>
     <ul>
       <li><a href="adminHome.php"><i class="fas fa-home"></i> Home</a></li>
-      <li><a href="adminAnalytics.php"><i class="fas fa-chart-line"></i> Analytics</a></li>
-      <li><a href="adminUser.php"><i class="fas fa-user-cog"></i> Customer Management</a></li>
-      <li><a href="adminAM.php"><i class="fas fa-user-circle"></i> Account Management</a>
-      <li><a href="signup.php"><i class="fas fa-sign-out-alt"></i> Sign Out</a></li> 
+      <li><a href="adminAnalytics.php"><i class="fas fa-chart-line"></i> Disbursement</a></li>
+      <li><a href="adminUser.php"><i class="fas fa-copy"></i> Budget Management</a></li>
+      <li><a href="adminAM.php"><i class="fas fa-money-bill"></i> Collection</a>
+      <li><a href="signup.php"><i class="fas fa-address-book"></i> General Ledger</a></li>
+      <li><a href="signup.php"><i class="fas fa-file-invoice"></i> Account Payable/Recievable</a></li> 
     </ul>
   </div>
   <div id="content">
@@ -26,21 +26,18 @@
 
 <div id="content">
     <h1>Admin Dashboard - Home</h1>
-    <p>Welcome to the Admin Dashboard Home section. Here, you can access key information about your website, including the number of pages, posts, and comments. You'll also find notifications about site health and other important updates.</p>
-    <p>Feel free to explore the various tools and options available in the sidebar to manage and customize your website.</p>
-    <p>For more details, <a href="adminAnalytics.php">click here</a> to view the Analytics section.</p>
+    <p>Welcome to the Financial Department! This department serves as the cornerstone of our organization, responsible for managing all financial processes and decisions. Our primary goal is to ensure the effective allocation of resources, maintain financial stability, and support the overall strategic objectives of the company.</p>
 
     <h2>Important Statistics</h2>
     <ul>
-      <li>Total Pages: 50</li>
-      <li>Total Posts: 200</li>
-      <li>Total Comments: 1000</li>
+      <li>Perang nanakaw: 200000</li>
+      <li>Perang naitago: 0</li>
+      <li>Imissyou: 143</li>
     </ul>
     <h2>Recent Notifications</h2>
-    <p>1. Site maintenance scheduled for next week.</p>
-    <p>2. New user registration: John Doe</p>
-    <p>3. High traffic alert: Consider scaling servers</p>
-    <p>For more details, <a href="adminAnalytics.php">click here</a> to view the Analytics section.</p>
+    <p>1. Miss na kita</p>
+    <p>2. Miss na kita balik please</p>
+    <p>3. balik na ikaw ehehe</p>
     
 
 </div>
